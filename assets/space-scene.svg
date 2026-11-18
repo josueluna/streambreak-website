@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc"><title id="title">Exploración espacial, ilustración de ejemplo</title><desc id="desc">Un astronauta observa un planeta azul con pequeños fragmentos a su alrededor.</desc><defs><radialGradient id="space"><stop stop-color="#2a2461"/><stop offset="1" stop-color="#070d25"/></radialGradient><linearGradient id="planet" x2=".8" y2="1"><stop stop-color="#62e7ee"/><stop offset=".5" stop-color="#198cbe"/><stop offset="1" stop-color="#1f387e"/></linearGradient><linearGradient id="suit" x2="1" y2="1"><stop stop-color="#e0d9ff"/><stop offset=".6" stop-color="#9c8bdb"/><stop offset="1" stop-color="#51458c"/></linearGradient><linearGradient id="glass" x2="1" y2="1"><stop stop-color="#182e57"/><stop offset=".5" stop-color="#292354"/><stop offset="1" stop-color="#070d25"/></linearGradient><clipPath id="globe"><circle cx="442" cy="163" r="78"/></clipPath></defs><rect width="640" height="360" fill="url(#space)"/><g fill="#b5c6ff" opacity=".6"><circle cx="37" cy="69" r="1.3"/><circle cx="297" cy="52" r="1.2"/><circle cx="329" cy="268" r="1"/><circle cx="560" cy="43" r="1.2"/><circle cx="602" cy="247" r="1.5"/><circle cx="506" cy="320" r="1"/><circle cx="54" cy="231" r="1.1"/><circle cx="347" cy="109" r="1"/><circle cx="258" cy="25" r="1.1"/><circle cx="414" cy="33" r="1"/></g><g class="star" fill="#fff"><circle cx="322" cy="83" r="2"/><circle cx="576" cy="119" r="1.8"/><circle cx="297" cy="317" r="1.6"/><path d="m522 65 2 7 7 2-7 2-2 7-2-7-7-2 7-2z"/></g><ellipse cx="440" cy="170" rx="113" ry="22" transform="rotate(-28 440 170)" fill="none" stroke="#615ea0" stroke-width="1" opacity=".6"/><g class="orbit"><circle cx="442" cy="163" r="82" fill="#76d8ec" opacity=".13"/><circle cx="442" cy="163" r="78" fill="url(#planet)"/><g clip-path="url(#globe)" fill="#83dbad"><path d="m395 88 32 8 7 17-13 12 14 13-11 18-24-1-9 22-18-7-17-27 19-16z"/><path d="m458 107 25 5 16 24-8 17-24-8-11-18-14 2-6-11z"/><path d="m427 177 24 1 15 15-8 24-20 22-9-24-11-14z"/><path d="m492 192 27 8 2 23-34-5-13-16z"/></g><path d="M397 108c34-27 78-9 96 17" fill="none" stroke="#d9ffff" opacity=".35" stroke-width="7" stroke-linecap="round"/></g><g class="dust" fill="#69d5df"><path d="m527 143 13-9 4 13-13 5z"/><path d="m552 177 11 4-4 10-10-5z"/><path d="m532 212 8-6 8 8-11 6z"/><path d="m568 135 8 3-3 8-9-2z"/><path d="m591 189 6-5 6 8-8 3z"/><path d="m558 233 7-4 5 7-8 5z"/></g><g fill="#a1b7ec" opacity=".6"><circle cx="560" cy="106" r="3"/><circle cx="594" cy="153" r="2"/><circle cx="578" cy="215" r="2.5"/></g><g transform="rotate(-7 175 210)" stroke-linejoin="round" stroke-linecap="round">
+<!-- Backpack and supporting arm establish a clear silhouette at small player sizes. -->
+<path d="M80 226q-18 3-22 23L45 334l35 18 30-113z" fill="#51456f" stroke="#b5acd3" stroke-width="3"/>
+<path d="M91 227q-18 0-27 18l-20 57q-6 22 6 36l21 8 12-24-7-14 25-49z" fill="url(#suit)" stroke="#c8bee8" stroke-width="3"/>
+<path d="m49 305 29 8-6 15-28-7z" fill="#68608e"/>
+<!-- Torso panels, seams and neck pressure ring. -->
+<path d="M99 216q24-21 66-22 37-1 64 29l15 45 8 92H76l5-87q2-34 18-57z" fill="url(#suit)" stroke="#dcd3f4" stroke-width="3"/>
+<path d="m96 246 19 8 7 87-32 19H76l5-87z" fill="#7966a5"/>
+<path d="m210 239-6 81 14 40h34l-8-92-15-45z" fill="#65578d"/>
+<path d="M111 320q46 12 101-1M125 326l-1 34M197 326l4 34" fill="none" stroke="#9d8dbb" stroke-width="5"/>
+<path d="M117 220q48 18 89-3l-2 16q-47 20-89-1z" fill="#544b76" stroke="#c5b7df" stroke-width="3"/>
+<ellipse cx="160" cy="215" rx="49" ry="13" fill="#e1daf1" stroke="#9584b6" stroke-width="4"/>
+<!-- Reaching arm: shoulder, elbow joint and a distinct cuff. -->
+<path d="M212 230q15-11 30 1l28 23 29-33 20 15-37 47q-12 15-27 7l-51-30z" fill="url(#suit)" stroke="#d8cef0" stroke-width="3"/>
+<path d="m248 252 16 13 13 1-7 17-17-2-15-12z" fill="#786794"/>
+<path d="m253 258 16 12m-22-5 15 13" fill="none" stroke="#c0afd9" stroke-width="2"/>
+<path d="m289 229 16-19 21 17-15 19z" fill="#695b8e" stroke="#c1b1dc" stroke-width="3"/>
+<path d="m297 224 19 15" stroke="#e3d8f3" stroke-width="4"/>
+<!-- Glove with separated fingers and a thumb, rather than a polygonal point. -->
+<path d="m305 210 12-11q5-4 10-2l23 10q5 3 3 7t-7 2l-13-5 10 11q3 4 0 7t-7 0l-12-11 6 12q2 5-2 7t-7-2l-10-14-7-3z" fill="#d7caeb" stroke="#8d7aa8" stroke-width="2.5"/>
+<path d="m310 209 13 4m-6-9 15 6" fill="none" stroke="#ae99c7" stroke-width="2"/>
+<!-- Helmet shell with a shaded lower rim and a dark, reflective visor. -->
+<path d="M89 150q0-80 72-91 73-9 84 71 10 74-54 91-77 15-96-41z" fill="url(#suit)" stroke="#eee7fc" stroke-width="4"/>
+<path d="M103 183q24 43 80 31 42-9 53-43" fill="none" stroke="#6f5c96" stroke-width="9"/>
+<path d="M108 142q0-60 54-67 56-5 66 53 11 59-39 75-57 13-75-31z" fill="url(#glass)" stroke="#8c79b3" stroke-width="5"/>
+<path d="M119 124q12-34 48-35 24-1 41 17" fill="none" stroke="#c8dcfb" stroke-width="7" opacity=".7"/>
+<path d="M124 136q5-16 13-22" fill="none" stroke="#f1ecff" stroke-width="4" opacity=".7"/>
+<path d="m193 156 24-13-3 16-20 11z" fill="#55c9dd" opacity=".5"/>
+<path d="m197 179 18-10" fill="none" stroke="#aac7ef" stroke-width="3" opacity=".4"/>
+<rect x="86" y="137" width="19" height="35" rx="7" fill="#675680" stroke="#b4a2cf" stroke-width="3"/>
+<path d="m93 145 1 19" stroke="#d5c9e8" stroke-width="3"/>
+<path d="M113 91q17-22 46-24" fill="none" stroke="#fff" stroke-width="3" opacity=".55"/>
+<!-- Chest equipment and a restrained mission patch. -->
+<rect x="119" y="253" width="70" height="48" rx="10" fill="#e7e2f1" stroke="#9381ad" stroke-width="3"/>
+<rect x="128" y="264" width="31" height="11" rx="3" fill="#58a9be"/>
+<path d="m132 269 6-2 5 4 5-3 7 1" fill="none" stroke="#d4f1f8" stroke-width="1.6"/>
+<circle cx="174" cy="269" r="5" fill="#f3a98d"/>
+<path d="m129 286 12 1m7 0h7m8-1h13" stroke="#b4a6c8" stroke-width="3"/>
+<circle cx="106" cy="244" r="9" fill="#9bc7dc" stroke="#d8e6f1" stroke-width="2"/>
+<path d="m102 244 3 3 6-7" fill="none" stroke="#405f83" stroke-width="2"/>
+</g><path d="M0 341q159-18 282 10t358-2v11H0" fill="#111b3d" opacity=".7"/></svg>
