@@ -20,3 +20,30 @@ kbd{white-space:nowrap;flex-shrink:0}.keyline>span{min-width:0}
 .privacy-page{padding-bottom:85px}.privacy-hero{display:grid;grid-template-columns:1.2fr 1fr;gap:80px;padding:76px 0 65px;border-bottom:1px solid var(--line);align-items:center}.privacy-hero h1{font-size:clamp(50px,6.5vw,84px);font-weight:600;line-height:1.05;letter-spacing:-4px;margin:24px 0}.privacy-hero h1 em{font-family:Georgia,serif;font-weight:400;color:var(--blue)}.privacy-updated{font-size:11px;color:var(--muted);line-height:1.8;max-width:350px}.privacy-intro>p:first-child{font-size:25px;font-weight:450;letter-spacing:-.5px;line-height:1.45;margin:0 0 20px}.privacy-intro .privacy-explainer{font-size:15px;line-height:1.8;color:var(--muted)}.privacy-intro>a{display:inline-block;margin-top:12px;font-size:13px;color:var(--blue);text-underline-offset:5px}.privacy-reading{display:grid;grid-template-columns:250px minmax(0,1fr);gap:90px;padding-top:50px}.privacy-index{align-self:start;position:sticky;top:35px;display:flex;flex-direction:column;gap:0}.privacy-index>.eyebrow{margin-bottom:22px;color:var(--muted)}.privacy-index a{display:flex;align-items:baseline;gap:14px;padding:12px 0;border-bottom:1px solid var(--line);text-decoration:none;font-size:12px;line-height:1.5}.privacy-index a:hover{color:var(--blue)}.privacy-index a>span{font:10px ui-monospace,monospace;color:var(--blue)}.privacy-document{max-width:720px}.privacy-section{padding-bottom:35px;margin-bottom:32px;border-bottom:1px solid var(--line);scroll-margin-top:35px}.privacy-section>.eyebrow{color:var(--blue)}.privacy-section h2{font-size:27px;letter-spacing:-.8px;line-height:1.2;margin:12px 0 20px}.privacy-section p{font-size:15px;line-height:1.9;color:var(--muted);margin:14px 0;overflow-wrap:anywhere}.privacy-document a{color:var(--blue);text-underline-offset:4px}.privacy-question{background:#e8edf2;padding:30px;border-left:3px solid var(--blue)}.privacy-question h2{font-size:34px;letter-spacing:-1px;margin:16px 0}.privacy-question p{font-size:14px;line-height:1.8;overflow-wrap:anywhere;color:var(--muted)}.privacy-support{display:inline-block;margin-top:10px;font-size:13px}
 @media(max-width:900px){.privacy-hero{gap:35px}.privacy-reading{grid-template-columns:210px minmax(0,1fr);gap:40px}.privacy-intro>p:first-child{font-size:22px}}
 @media(max-width:680px){.privacy-hero{grid-template-columns:1fr;gap:22px;padding:42px 0}.privacy-hero h1{font-size:57px;letter-spacing:-2.5px}.privacy-intro>p:first-child{font-size:22px}.privacy-reading{grid-template-columns:minmax(0,1fr);gap:40px;padding-top:30px}.privacy-index{position:static;display:grid;grid-template-columns:1fr 1fr;gap:0 18px}.privacy-index>.eyebrow{grid-column:1/-1;margin-bottom:12px}.privacy-index a{font-size:11px;gap:9px}.privacy-section h2{font-size:25px}.privacy-section p{font-size:14px;line-height:1.85}.privacy-question{padding:23px 20px}.privacy-question h2{font-size:30px}}
+/* Ajustes de jerarquía en inicio, privacidad y soporte */
+.hero { padding-block: 42px 40px; gap: clamp(28px, 5vw, 72px); align-items: start; }
+.hero h1 { font-size: clamp(54px, 7vw, 94px); margin: 12px 0 20px; }
+.hero .lead { margin: 0; }
+.demo-caption { margin: 0 0 12px; padding: 0 0 10px; font-size: 14px; }
+#como-funciona, .faq { padding-block: 64px; }
+#como-funciona .section-title { gap: 28px; align-items: baseline; margin-bottom: 20px; }
+#como-funciona .section-title h2, #como-funciona .section-title p { margin-block: 0; }
+.dark-inner { padding-block: 52px; }
+.dark-band h2 { font-size: clamp(32px, 4.5vw, 52px); margin-top: 0; }
+.privacy-hero { grid-template-columns: 1fr; gap: 14px; padding: 40px 0 30px; }
+.privacy-hero h1 { font-size: clamp(34px, 5vw, 60px); letter-spacing: -.04em; margin: 0 0 12px; }
+.privacy-intro .privacy-explainer { max-width: 64ch; margin: 0; }
+.privacy-reading { padding-top: 30px; }
+.privacy-section h2 { margin-top: 0; }
+.support-page { padding-top: 40px; }
+.support-page h1 { font-size: clamp(34px, 5vw, 52px); margin: 0 0 12px; }
+.support-page > h2 { border-top: 1px solid var(--line); padding-top: 22px; }
+.support-contact { border-left: 3px solid var(--blue); padding: 0 0 0 20px; margin-top: 36px; }
+.support-contact .support-link { margin-block: 8px; }
+
+@media (max-width: 680px) {
+  .hero { gap: 30px; padding-block: 30px; }
+  #como-funciona, .faq { padding-block: 44px; }
+  #como-funciona .section-title { gap: 12px; }
+  .privacy-hero { padding-block: 32px 24px; }
+}
